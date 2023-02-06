@@ -13,8 +13,6 @@ cts[1:10,1:10]
 nsclc.seurat.obj <- CreateSeuratObject(counts = cts, project = "NSCLC", min.cells = 3, min.features = 200)
 str(nsclc.seurat.obj)
 nsclc.seurat.obj
-# 29552 features across 42081 samples
-
 
 # 1. QC -------
 View(nsclc.seurat.obj@meta.data)
